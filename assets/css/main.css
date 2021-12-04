@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    
+} 
+
+nav{
+    background-color: rgb(12, 61, 61);
+    height: 50px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+
+nav a{
+    color: beige;
+    text-decoration: none;
+}
+
+#logo-home{
+    height: 50px;
+}
+
+.mr-md{
+    margin-right: 50px;
+}
