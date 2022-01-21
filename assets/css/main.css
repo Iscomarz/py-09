@@ -6,7 +6,7 @@ body{
 nav{
 
     height: 50px;
-    width: 100%;
+    width: 100;
 
     display: flex;
     align-items: center;
@@ -30,11 +30,12 @@ nav a{
 #hero-home{
     height: 400px;
     width: 100%;
-    background-image: url(https://images.pexels.com/photos/4010108/pexels-photo-4010108.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-color: pink;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-position: bottom;
 }
 
 #hero-home img{
@@ -69,3 +70,22 @@ nav a{
 .mr-md{
     margin-right: 20px;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .display-none{
+        display: none;
+    }
+
+    nav{
+        justify-content: center;
+    }
+
+    #hero-home{
+        flex-direction: column-reverse;
+    }
+    .text-hero{
+        text-align: center;
+    }
+}
+
